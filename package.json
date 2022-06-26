@@ -1,0 +1,26 @@
+{
+  "name": "qa-evaluation-tap-goods",
+  "version": "1.0.0",
+  "description": "This is a simple automatic suite, to  increment the QA Evaluation given by Tap Goods company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LhFS/qa-evaluation-tap-goods.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LhFS/qa-evaluation-tap-goods/issues"
+  },
+  "homepage": "https://github.com/LhFS/qa-evaluation-tap-goods#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
